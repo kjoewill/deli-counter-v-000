@@ -1,14 +1,12 @@
 katz_deli = []
 
 def line(line)
-  
   if line.size == 0
     puts "The line is currently empty." 
   else
     line_pos_array = line.each_with_index.collect { |e,i| " #{i+1}. #{e}" } 
     puts  "The line is currently:#{line_pos_array.join}"
   end
-  
 end
 
 def take_a_number(line, name)
