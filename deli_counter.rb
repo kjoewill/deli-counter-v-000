@@ -23,14 +23,3 @@ take_a_number(katz_deli, "Kent")
 
 line(katz_deli)
 
-now_serving(katz_deli)
-
-line(katz_deli)
-
-take_a_number(katz_deli, "Matz")
-
-line(katz_deli)
-
-now_serving(katz_deli) #=> "Currently serving Grace."
- 
-line(katz_deli) #=> "The line is currently: 1. Kent 2. Matz"
