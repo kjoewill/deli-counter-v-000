@@ -13,10 +13,11 @@ def now_serving(line)
   if line.empty
     puts "There is nobody waiting to be served!"
   else
-    puts "Now serviceline.shift
+    puts "Currently serving #{line.shift}."
 end
 
 
 take_a_number(katz_deli, "Ada")
 take_a_number(katz_deli, "Grace")
 take_a_number(katz_deli, "Kent")
+
