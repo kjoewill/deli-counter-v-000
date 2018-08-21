@@ -5,7 +5,7 @@ def line(line)
   
   print "The line is currently: "
   
-  names_string = line.collect { |e,i| print " #{i+1}. #{e}" } 
+  line-pos_array = line.each_with_index.collect { |e,i| " #{i+1}. #{e}" } 
   print "\n" 
   
   
