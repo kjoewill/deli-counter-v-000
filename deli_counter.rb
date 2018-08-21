@@ -6,4 +6,5 @@ end
 
 def take_a_number(katz_deli, name)
   line.push(name)
+  puts "Welcom"
 end
