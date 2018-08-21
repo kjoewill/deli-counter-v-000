@@ -6,7 +6,7 @@ def line(line)
   print "The line is currently: "
   
   line-pos_array = line.each_with_index.collect { |e,i| " #{i+1}. #{e}" } 
-  print "\n" 
+  puts  line-pos_array
   
   
 end
