@@ -28,3 +28,5 @@ now_serving(katz_deli)
 line(katz_deli)
 
 take_a_number(katz_deli, "Matz")
+
+line(katz_deli)
