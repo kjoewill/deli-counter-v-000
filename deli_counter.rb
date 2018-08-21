@@ -5,12 +5,9 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty." 
   else
-  
-  print "The line is currently: "
-  
-  line-pos_array = line.each_with_index.collect { |e,i| " #{i+1}. #{e}" } 
-  puts  "The line is currently:#{line-pos_array}"
-  
+    line-pos_array = line.each_with_index.collect { |e,i| " #{i+1}. #{e}" } 
+    puts  "The line is currently:#{line-pos_array}"
+  end
   
 end
 
