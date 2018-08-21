@@ -3,7 +3,9 @@ katz_deli = []
 def line(line)
   puts "The line is currently empty." if line.size == 0
   
-  "The line is currently: 1. Grace 2. Kent"
+  put "The line is currently: 1. Grace 2. Kent"
+  
+  line.each_with_index { |e,i| put " #{i}. #{e}" } 
   
   
 end
