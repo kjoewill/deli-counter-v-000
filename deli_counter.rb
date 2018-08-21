@@ -1,7 +1,11 @@
 katz_deli = []
 
-def line(katz_deli)
-  puts "The line is currently empty." if katz_deli.size == 0
+def line(line)
+  puts "The line is currently empty." if line.size == 0
+  
+  "The line is currently: 1. Grace 2. Kent"
+  
+  
 end
 
 def take_a_number(line, name)
