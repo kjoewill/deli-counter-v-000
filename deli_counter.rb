@@ -4,7 +4,7 @@ def line(katz_deli)
   puts "The line is currently empty." if katz_deli.size == 0
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(line, name)
   line.push(name)
-  puts "Welcom"
+  puts "Welcome, #{name}. You are number #{} in line."
 end
