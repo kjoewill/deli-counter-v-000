@@ -6,6 +6,7 @@ def line(line)
   print "The line is currently: "
   
   line.each_with_index { |e,i| print " #{i+1}. #{e}" } 
+  print "\n" 
   
   
 end
